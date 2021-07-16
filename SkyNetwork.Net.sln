@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyNetwork.Application", "SkyNetwork\SkyNetwork.Application\SkyNetwork.Application.csproj", "{E3A428B2-C491-4DD8-B83E-4DB08AD1DA85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyNetwork.Core", "SkyNetwork\SkyNetwork.Core\SkyNetwork.Core.csproj", "{BF437D06-95FB-4D9F-9E95-B99749F155D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyNetwork.Database.Migrations", "SkyNetwork\SkyNetwork.Database.Migrations\SkyNetwork.Database.Migrations.csproj", "{B69B5A80-E95A-485F-BC77-2C2DB6A34BD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyNetwork.EntityFramework.Core", "SkyNetwork\SkyNetwork.EntityFramework.Core\SkyNetwork.EntityFramework.Core.csproj", "{7FE4E2D4-D86B-4CE3-BA0F-8681E82C8D04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyNetwork.Web.Core", "SkyNetwork\SkyNetwork.Web.Core\SkyNetwork.Web.Core.csproj", "{DFA93E3B-B2B6-4DB1-A346-EECFA3243508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyNetwork.Web.Entry", "SkyNetwork\SkyNetwork.Web.Entry\SkyNetwork.Web.Entry.csproj", "{00807B00-A26C-4B05-9119-54C9E5E8FAF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3A428B2-C491-4DD8-B83E-4DB08AD1DA85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A428B2-C491-4DD8-B83E-4DB08AD1DA85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A428B2-C491-4DD8-B83E-4DB08AD1DA85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A428B2-C491-4DD8-B83E-4DB08AD1DA85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF437D06-95FB-4D9F-9E95-B99749F155D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF437D06-95FB-4D9F-9E95-B99749F155D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF437D06-95FB-4D9F-9E95-B99749F155D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF437D06-95FB-4D9F-9E95-B99749F155D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69B5A80-E95A-485F-BC77-2C2DB6A34BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69B5A80-E95A-485F-BC77-2C2DB6A34BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69B5A80-E95A-485F-BC77-2C2DB6A34BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69B5A80-E95A-485F-BC77-2C2DB6A34BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE4E2D4-D86B-4CE3-BA0F-8681E82C8D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE4E2D4-D86B-4CE3-BA0F-8681E82C8D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE4E2D4-D86B-4CE3-BA0F-8681E82C8D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE4E2D4-D86B-4CE3-BA0F-8681E82C8D04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA93E3B-B2B6-4DB1-A346-EECFA3243508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA93E3B-B2B6-4DB1-A346-EECFA3243508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA93E3B-B2B6-4DB1-A346-EECFA3243508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA93E3B-B2B6-4DB1-A346-EECFA3243508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00807B00-A26C-4B05-9119-54C9E5E8FAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00807B00-A26C-4B05-9119-54C9E5E8FAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00807B00-A26C-4B05-9119-54C9E5E8FAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00807B00-A26C-4B05-9119-54C9E5E8FAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA03B5DE-B516-4F73-9CF7-BD6208C07BF7}
+	EndGlobalSection
+EndGlobal
